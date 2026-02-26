@@ -23,7 +23,7 @@ class Config:
         '''
         Keys
         '''
-        self.architecture = 'arc-rnn-lstm'
+        self.architecture = 'arc-cnn'
         self.s3_parameters_key = 's3_parameters.yaml'
         self.argument_key = f'architectures/{self.architecture}/arguments.json'
         self.metadata_ = f'architectures/{self.architecture}/metrics/external'

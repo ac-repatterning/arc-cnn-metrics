@@ -1,10 +1,10 @@
 <br>
 
-Master<br>
-[![Hydrography: Error metrics ↠ github.com/repatterning/arc-rnn-lstm](https://github.com/ac-repatterning/arc-rnn-lstm-metrics/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/ac-repatterning/arc-rnn-lstm-metrics/actions/workflows/main.yml)
+master<br>
+[![hydrography: error metrics ↠ ac-repatterning/arc-cnn](https://github.com/ac-repatterning/arc-cnn-metrics/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/ac-repatterning/arc-cnn-metrics/actions/workflows/main.yml)
 
-Develop<br>
-[![Hydrography: Error metrics ↠ github.com/repatterning/arc-rnn-lstm](https://github.com/ac-repatterning/arc-rnn-lstm-metrics/actions/workflows/main.yml/badge.svg?branch=develop)](https://github.com/ac-repatterning/arc-rnn-lstm-metrics/actions/workflows/main.yml)
+develop<br>
+[![hydrography: error metrics ↠ ac-repatterning/arc-cnn](https://github.com/ac-repatterning/arc-cnn-metrics/actions/workflows/main.yml/badge.svg?branch=develop)](https://github.com/ac-repatterning/arc-cnn-metrics/actions/workflows/main.yml)
 
 <br>
 <br>

@@ -20,9 +20,16 @@ class Specifications:
         :return:
         """
 
-        specification = specification._replace(catchment_id=int(specification.catchment_id),
-                                                 station_id=int(specification.station_id),
-                                                 ts_id=int(specification.ts_id))
+        if not isinstance(specification.river_name, str):
+            specification = specification._replace(river_name='')
+
+        specification = specification._replace(
+            catchment_id=int(specification.catchment_id),
+            station_id=int(specification.station_id),
+            ts_id=int(specification.ts_id),
+            latitude=float(specification.latitude),
+            longitude=float(specification.longitude)
+        )
 
         return specification
 

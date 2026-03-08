@@ -41,7 +41,7 @@ class Objects:
             with open(file=path, mode='w', encoding='utf-8') as disk:
                 json.dump(obj=nodes, fp=disk, ensure_ascii=False, indent=4, allow_nan=False)
             return f'{name}: succeeded'
-        except IOError as err:
+        except OSError as err:
             raise err from err
 
     @staticmethod
